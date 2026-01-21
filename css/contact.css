@@ -39,7 +39,9 @@
   --font-main: "Inter", sans-serif;
   --font-heading: "Syne", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 nav {
   display: flex;
   flex-direction: row;
